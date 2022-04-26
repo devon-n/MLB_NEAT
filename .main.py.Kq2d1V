@@ -1,0 +1,14 @@
+# Import libraries and modules
+
+# Scrape yesterdays results and todays games
+
+# Make predictions with keras
+
+# Make betting strategies with NEAT
+
+# Report outcomes and bets in PDF
+    # Combine yesterdays results with todays bets
+    # Add to all games
+    # Do some analytics and graphs
+
+# Send PDF to me

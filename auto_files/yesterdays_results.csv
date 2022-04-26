@@ -1,0 +1,15 @@
+Time,Date,Home,Visitor,Home Score,Vis Score,Home Win
+12:10,2021-07-28,Oakland Athletics,San Diego Padres,7,3,True
+12:10,2021-07-28,Houston Astros,Seattle Mariners,4,8,False
+11:45,2021-07-28,Los Angeles Dodgers,San Francisco Giants,2,1,True
+11:38,2021-07-28,Colorado Rockies,Los Angeles Angels,2,12,False
+10:10,2021-07-28,Chicago White Sox,Kansas City Royals,3,5,False
+10:10,2021-07-28,Detroit Tigers,Minnesota Twins,5,6,False
+10:05,2021-07-28,Cincinnati Reds,Chicago Cubs,4,7,False
+10:05,2021-07-28,Arizona Diamondbacks,Texas Rangers,5,4,True
+09:10,2021-07-28,St. Louis Cardinals,Cleveland Indians,2,4,False
+09:10,2021-07-28,Atlanta Braves,New York Mets,5,12,False
+09:10,2021-07-28,New York Yankees,Tampa Bay Rays,3,4,False
+09:05,2021-07-28,Miami Marlins,Baltimore Orioles,3,7,False
+09:05,2021-07-28,Washington Nationals,Philadelphia Phillies,4,6,False
+09:05,2021-07-28,Milwaukee Brewers,Pittsburgh Pirates,0,9,False

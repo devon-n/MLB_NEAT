@@ -1,0 +1,87 @@
+[NEAT]
+# Try mean, min and max fitness criterion
+fitness_criterion = max
+fitness_threshold = 100000000000000000000000000000000000.0
+no_fitness_termination = True
+pop_size = 200
+reset_on_extinction = True
+
+[DefaultGenome]
+# node activation options
+activation_default      = random
+activation_mutate_rate  = 0.1
+activation_options      = sigmoid abs clamped cube exp gauss hat identity inv log relu sin softplus square tanh
+; activation_options = sigmoid
+
+# node aggregation options
+aggregation_default     = random
+aggregation_mutate_rate = 0.1
+aggregation_options     = sum product min max mean median maxabs
+
+# node bias options
+bias_init_mean          = 0.0
+bias_init_stdev         = 1.0
+bias_max_value          = 1.0
+bias_min_value          = -1.0
+bias_mutate_power       = 0.5
+bias_mutate_rate        = 0.7
+bias_replace_rate       = 0.1
+
+# genome compatibility options
+compatibility_disjoint_coefficient = 1.0
+compatibility_weight_coefficient   = 0.5
+
+# connection add/remove rates
+conn_add_prob           = 0.5
+conn_delete_prob        = 0.5
+
+# connection enable options
+enabled_default         = False
+enabled_mutate_rate     = 0.01
+# feed_forward = false is recurrent nn
+feed_forward            = True
+initial_connection      = full_direct
+
+# Node add/remove rates
+#Try making it more likely to add nodes
+node_add_prob = 0.02
+node_delete_prob = 0.02
+
+# Initial Net Params
+# 1 hidden layer if it crashes again
+num_hidden = 1
+num_inputs = 5
+num_outputs = 4
+
+# node response options
+response_init_mean      = 1.0
+response_init_stdev     = 0.0
+response_max_value      = 1.0
+response_min_value      = -1.0
+response_mutate_power   = 0.0
+response_mutate_rate    = 0.0
+response_replace_rate   = 0.0
+
+# connection weight options
+weight_init_mean        = 0.0
+weight_init_stdev       = 1.0
+weight_max_value        = 1
+weight_min_value        = -1
+weight_mutate_power     = 0.5
+weight_mutate_rate      = 0.8
+weight_replace_rate     = 0.1
+
+[DefaultSpeciesSet]
+compatibility_threshold = 2.0
+# This was 4 before
+
+[DefaultStagnation]
+# Try max, mean and min
+species_fitness_func = max
+max_stagnation = 15
+species_elitism = 2
+
+[DefaultReproduction]
+elitism = 2
+survival_threshold = 0.2
+min_species_size = 2

@@ -1,0 +1,19 @@
+Date_x,Home,Visitor,Home Odds,Vis Odds,Predictions,Bet Direction,Bet Sizes,Home Score,Vis Score,Home Win_x,Prediction Result,Outcome,Date_y,Home Win_y
+,New York Yankees,Boston Red Sox,,,,,,2.0,0.0,,,,17-July-2021,True
+,Arizona Diamondbacks,Chicago Cubs,,,,,,6.0,4.0,,,,17-July-2021,True
+,Los Angeles Angels,Seattle Mariners,,,,,,4.0,7.0,,,,17-July-2021,False
+,Oakland Athletics,Cleveland Indians,,,,,,2.0,4.0,,,,17-July-2021,False
+,Toronto Blue Jays,Texas Rangers ,,,,,,10.0,0.0,,,,17-July-2021,True
+,Colorado Rockies,Los Angeles Dodgers ,,,,,,6.0,5.0,,,,17-July-2021,True
+,Washington Nationals,San Diego Padres,,,,,,8.0,7.0,,,,17-July-2021,True
+,St.Louis Cardinals,San Francisco Giants,,,,,,2.0,1.0,,,,17-July-2021,True
+,Chicago White Sox,Houston Astros,,,,,,4.0,0.0,,,,17-July-2021,True
+,Kansas City Royals,Baltimore Orioles,,,,,,0.0,5.0,,,,17-July-2021,False
+,Philadelphia Phillies,Miami Marlins,,,,,,7.0,4.0,,,,17-July-2021,True
+,Atlanta Braves,Tampa Bay Rays,,,,,,5.0,7.0,,,,17-July-2021,False
+,Cincinnati Reds,Milwaukee Brewers,,,,,,0.0,8.0,,,,17-July-2021,False
+,Detroit Tigers,Minnesota Twins,,,,,,7.0,0.0,,,,17-July-2021,True
+,Toronto Blue Jays,Texas Rangers ,,,,,,5.0,0.0,,,,17-July-2021,True
+,Philadelphia Phillies,Miami Marlins ,,,,,,4.0,2.0,,,,17-July-2021,True
+,Pittsburgh Pirates,New York Mets,,,,,,6.0,7.0,,,,17-July-2021,False
+,Washington Nationals,San Diego Padres,,,,,,4.0,10.0,,,,17-July-2021,False
